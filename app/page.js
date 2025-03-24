@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Section2 from "@/components/Section2";
 import Image from "next/image";
 
 export default function Home() {
@@ -20,8 +21,11 @@ export default function Home() {
         </div>
       </div>
       </div>
-      <div>
-        heasl
+      <div className="  w-auto h-80 mt-10 p-2 flex flex-row gap-12 justify-around">
+        <Section2 img="echoes" name="dakkspheree"/>
+        <Section2 img="card2" name="daikspherse" />
+        <Section2 img="echoes" name="daddspherek"/>
+        <Section2 img="card2" name="dakksphere"/>
       </div>
     </>
 
